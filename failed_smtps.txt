@@ -1,0 +1,440 @@
+URL: https://aashonlineapp.com
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 587
+MAILUSER: email@gmail.com
+MAILPASS: xxxxxxxxxx
+MAILFROM: email@gmail.com
+FROMNAME: "Name application"
+ERROR: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials oo19-20020a05620a531300b0076c701c3e71sm4416511qkn.121 - gsmtp')
+
+URL: https://academica.top
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 587
+MAILUSER: smtp_user
+MAILPASS: smtp_pass
+MAILFROM: 
+FROMNAME: 
+ERROR: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials jt8-20020a05622aa00800b00403ff38d855sm4391791qtb.4 - gsmtp')
+
+URL: https://aljamidtech.com
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 465
+MAILUSER: al.jamid2022@gmail.com
+MAILPASS: clepxwsrgpvtjryk
+MAILFROM: "al.jamid2022@gmail.com"
+FROMNAME: "${APP_NAME}"
+ERROR: (534, b'5.7.9 Please log in with your web browser and then try again. Learn more at\n5.7.9  https://support.google.com/mail/?p=WebLoginRequired u4-20020ae9c004000000b00774350813ccsm1181724qkk.118 - gsmtp')
+
+URL: https://hageteru.com
+METHOD: /.env
+MAILHOST: sv14411.xserver.jp
+MAILPORT: 465
+MAILUSER: code.sawa@hageteru.com
+MAILPASS: azumi123
+MAILFROM: code.sawa@hageteru.com
+FROMNAME: "${APP_NAME}"
+ERROR: (535, b'5.7.8 Error: authentication failed: authentication failure')
+
+URL: https://misk-soft.com
+METHOD: /.env
+MAILHOST: smtp.mailtrap.io
+MAILPORT: 587
+MAILUSER: 
+MAILPASS: 
+MAILFROM: "info@beattc.com"
+FROMNAME: "${APP_NAME}"
+ERROR: Connection unexpectedly closed
+
+URL: https://pamelcouture.com
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 587
+MAILUSER: dchauhan1514.ca20@chitkara.edu.in
+MAILPASS: Saibaba@333
+MAILFROM: dchauhan1514.ca20@chitkara.edu.in
+FROMNAME: "First Cup"
+ERROR: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials oj2-20020a056214440200b0065af4977ea3sm2968639qvb.24 - gsmtp')
+
+URL: https://presisdemo.com
+METHOD: debug
+MAILHOST: *******
+MAILPORT: ****
+MAILUSER: ****
+MAILPASS: ****
+MAILFROM: ****
+FROMNAME: *******
+ERROR: invalid literal for int() with base 10: '****'
+
+URL: https://synapsprofit.com
+METHOD: /.env
+MAILHOST: synapsprofit.com
+MAILPORT: 465
+MAILUSER: support@synapsprofit.com
+MAILPASS: u$}z_xoY,ucm
+MAILFROM: support@synapsprofit.com
+FROMNAME: "${APP_NAME}"
+ERROR: (535, b'Incorrect authentication data')
+
+URL: https://xn--b1aghjbocagb2c.xn--p1ai
+METHOD: debug
+MAILHOST: **************
+MAILPORT: ***
+MAILUSER: *******************
+MAILPASS: *********
+MAILFROM: *******************
+FROMNAME: ******
+ERROR: invalid literal for int() with base 10: '***'
+
+URL: https://paramountvisionfinance.com
+METHOD: /.env
+MAILHOST: paramountvisionfinance.com
+MAILPORT: 465
+MAILUSER: support@paramountvisionfinance.com
+MAILPASS: swiftglo_paramount
+MAILFROM: 
+FROMNAME: 
+ERROR: {'test@example.com': (550, b'The mail server could not deliver mail to test@example.com.  The account or\ndomain may not exist, they may be blacklisted, or missing the proper dns\nentries.')}
+
+URL: https://prohomeworkhelp.net
+METHOD: /.env
+MAILHOST: smtp.titan.email
+MAILPORT: 587
+MAILUSER: info@prohomeworkhelp.net
+MAILPASS: GfFcUyeUPy
+MAILFROM: info@prohomeworkhelp.net
+FROMNAME: "${APP_NAME}"
+ERROR: (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+
+URL: https://app-pursuenetworking.com
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 465
+MAILUSER: admin@pursuenetworking.com
+MAILPASS: amczafhhsccjxbka
+MAILFROM: admin@pursuenetworking.com
+FROMNAME: "${APP_NAME}"
+ERROR: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials o5-20020a05620a110500b0076f058f5834sm2286062qkk.61 - gsmtp')
+
+URL: https://avichal.online
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 587
+MAILUSER: ''
+MAILPASS: ''
+MAILFROM: ''
+FROMNAME: ''
+ERROR: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials z13-20020a05620a100d00b007742c6823a3sm1968013qkj.108 - gsmtp')
+
+URL: https://baominhcv.com
+METHOD: /.env
+MAILHOST: "smtp.gmail.com"
+MAILPORT: 465
+MAILUSER: "smartshopvn.com@gmail.com"
+MAILPASS: "Smartshop@123"
+MAILFROM: "smartshopvn.com@gmail.com"
+FROMNAME: "Smartshopvn.com"
+ERROR: [Errno 8] nodename nor servname provided, or not known
+
+URL: https://fc-bs.com
+METHOD: /.env
+MAILHOST: smtp.hostinger.com
+MAILPORT: 587
+MAILUSER: test@gsc-sarl.com
+MAILPASS: Test1234*
+MAILFROM: null
+FROMNAME: "${APP_NAME}"
+ERROR: (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+
+URL: https://foreigntradepros.com
+METHOD: /.env
+MAILHOST: smtp.titan.email
+MAILPORT: 465
+MAILUSER: info@foreigntradepros.com
+MAILPASS: Logmein7744?
+MAILFROM: info@foreigntradepros.com
+FROMNAME: "${APP_NAME}"
+ERROR: (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+
+URL: https://maharajenterprise.com
+METHOD: /.env
+MAILHOST: smtp.mailtrap.io
+MAILPORT: 2525
+MAILUSER: null
+MAILPASS: null
+MAILFROM: null
+FROMNAME: "${APP_NAME}"
+ERROR: Unsupported SMTP port: 2525
+
+URL: https://miraihealthcare.com
+METHOD: debug
+MAILHOST: smtp.gmail.com
+MAILPORT: 587
+MAILUSER: bis2pii@gmail.com
+MAILPASS: uolzvbnfrhwocpva
+MAILFROM: 
+FROMNAME: 
+ERROR: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials y25-20020ac85259000000b004108ce94882sm33470qtn.83 - gsmtp')
+
+URL: https://ourtests.store
+METHOD: /.env
+MAILHOST: smtp.panel247.com
+MAILPORT: 587
+MAILUSER: bcd2@safirglobal.com
+MAILPASS: "WDSafir@#2022"
+MAILFROM: info@safirglobal.com
+FROMNAME: "${APP_NAME}"
+ERROR: (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+
+URL: https://profitresolution.com
+METHOD: debug
+MAILHOST: smtp.gmail.com
+MAILPORT: 25
+MAILUSER: sohomdev2016@gmail.com
+MAILPASS: DevSohom121
+MAILFROM: 
+FROMNAME: 
+ERROR: Unsupported SMTP port: 25
+
+URL: https://roinetcoin.network
+METHOD: /.env
+MAILHOST: mail.roinetcoin.network
+MAILPORT: 465
+MAILUSER: support@roinetcoin.network
+MAILPASS: X)&6ThwdqSAi
+MAILFROM: 
+FROMNAME: 
+ERROR: [Errno 8] nodename nor servname provided, or not known
+
+URL: https://smartsoftbill.com
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 587
+MAILUSER: laravel12345678@gmail.com
+MAILPASS: Saroar@04
+MAILFROM: laravel12345678@gmail.com
+FROMNAME: "System"
+ERROR: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials n17-20020a0ce491000000b0065af657de01sm2937056qvl.115 - gsmtp')
+
+URL: https://velpamed.com
+METHOD: debug
+MAILHOST: smtp.gmail.com
+MAILPORT: 587
+MAILUSER: facturacionelectronica.elab@gmail.com
+MAILPASS: pkngznqjuwnpjrrf
+MAILFROM: 
+FROMNAME: 
+ERROR: (534, b'5.7.9 Please log in with your web browser and then try again. Learn more at\n5.7.9  https://support.google.com/mail/?p=WebLoginRequired p1-20020a05620a112100b0076ef40734c8sm4417099qkk.79 - gsmtp')
+
+URL: https://onemarketplace.net
+METHOD: /.env
+MAILHOST: smtp.titan.email
+MAILPORT: 587
+MAILUSER: demo@itlogy.net
+MAILPASS: 0ggGvpmI7w
+MAILFROM: demo@itlogy.net
+FROMNAME: "${APP_NAME}"
+ERROR: (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+
+URL: https://ceivanmedical.com
+METHOD: debug
+MAILHOST: smtp.ionos.es
+MAILPORT: 465
+MAILUSER: noreply@depildiodo.com
+MAILPASS: w3ORj@Yx!EOr
+MAILFROM: noreply@depildiodo.com
+FROMNAME: Med.Apolo
+ERROR: (535, b'Authentication credentials invalid')
+
+URL: https://kriosfincorp.com
+METHOD: /.env
+MAILHOST: md-in-92.webhostbox.net
+MAILPORT: 587
+MAILUSER: info@kriosfincorp.com
+MAILPASS: "Info@#2023"
+MAILFROM: info@kriosfincorp.com
+FROMNAME: "${APP_NAME}"
+ERROR: (535, b'Incorrect authentication data')
+
+URL: https://kuzeyihracat.com
+METHOD: debug
+MAILHOST: mail.siteadi.com
+MAILPORT: 587
+MAILUSER: test@siteadi.com
+MAILPASS: sifre
+MAILFROM: info@siteadi.com
+FROMNAME: E-Ticaret V6
+ERROR: (535, b'Incorrect authentication data')
+
+URL: https://neurospace2023.live
+METHOD: /.env
+MAILHOST: smtp.elasticemail.com
+MAILPORT: 2525
+MAILUSER: agrawalgaurav1991@gmail.com
+MAILPASS: 89D4943FFC7F8A79B519FD0ED3A8DC147CB0
+MAILFROM: support@webinar365.in
+FROMNAME: "Thank You"
+ERROR: Unsupported SMTP port: 2525
+
+URL: https://selit.app
+METHOD: /.env
+MAILHOST: "smtp.hostinger.com"
+MAILPORT: "465"
+MAILUSER: "hello@selit.app"
+MAILPASS: "Dan@1234567"
+MAILFROM: "hello@selit.app"
+FROMNAME: "no-reply"
+ERROR: invalid literal for int() with base 10: '"465"'
+
+URL: https://allfriendsclub.com
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 587
+MAILUSER: programmerhero6@gmail.com
+MAILPASS: lrmoqvmfkyngqtue
+MAILFROM: programmerhero6@gmail.com
+FROMNAME: "${APP_NAME}"
+ERROR: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials n16-20020ac86750000000b004194c21ee85sm424721qtp.79 - gsmtp')
+
+URL: https://friendlypayroll.net
+METHOD: /.env
+MAILHOST: friendlypos.net
+MAILPORT: 465
+MAILUSER: no-reply@friendlypos.net
+MAILPASS: F4cc0unt*
+MAILFROM: 
+FROMNAME: 
+ERROR: (535, b'Incorrect authentication data')
+
+URL: https://campusportal.digital
+METHOD: /.env
+MAILHOST: mailhog
+MAILPORT: 1025
+MAILUSER: null
+MAILPASS: null
+MAILFROM: null
+FROMNAME: "${APP_NAME}"
+ERROR: Unsupported SMTP port: 1025
+
+URL: https://divineglobalbd.com
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 587
+MAILUSER: divineglobal21@gmail.com
+MAILPASS: ''
+MAILFROM: 
+FROMNAME: "${Buying House}"
+ERROR: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials d8-20020a0cb2c8000000b0065b13180892sm1413297qvf.16 - gsmtp')
+
+URL: https://poccmall.com
+METHOD: /.env
+MAILHOST: ""
+MAILPORT: "465"
+MAILUSER: ""
+MAILPASS: ""
+MAILFROM: ""
+FROMNAME: "no-reply"
+ERROR: invalid literal for int() with base 10: '"465"'
+
+URL: https://priyokaj.com
+METHOD: /.env
+MAILHOST: smtp.mailtrap.io
+MAILPORT: 2525
+MAILUSER: 5dbd65420aa2e5
+MAILPASS: 801b0dead2e0c3
+MAILFROM: "support@workupjob.com"
+FROMNAME: "${APP_NAME}"
+ERROR: Unsupported SMTP port: 2525
+
+URL: https://totem227.com ------------------------- OFFFFFFFF
+METHOD: /.env
+MAILHOST: smtp.hostinger.com
+MAILPORT: 587
+MAILUSER: siteweb@ifss-niger.com
+MAILPASS: IFSS-niger@2023
+MAILFROM: null
+FROMNAME: "${APP_NAME}"
+ERROR: (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+
+URL: https://whatsip.org
+METHOD: /.env
+MAILHOST: ""
+MAILPORT: ""
+MAILUSER: ""
+MAILPASS: ""
+MAILFROM: ""
+FROMNAME: "${APP_NAME}"
+ERROR: invalid literal for int() with base 10: '""'
+
+URL: https://absearning.com
+METHOD: /.env
+MAILHOST: absearning.com
+MAILPORT: 465
+MAILUSER: admin@absearning.com
+MAILPASS: Absearning05@
+MAILFROM: "admin@absearning.com"
+FROMNAME: "${APP_NAME}"
+ERROR: [Errno 60] Operation timed out
+
+URL: https://mazagan-cafe.com
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 587
+MAILUSER: Mazagan.Cafe2022@gmail.com
+MAILPASS: "psgh fsal bjoo ewuh"
+MAILFROM: "hello@example.com"
+FROMNAME: "${APP_NAME}"
+ERROR: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials a18-20020a0cb352000000b0065b0215e019sm2205209qvf.97 - gsmtp')
+
+URL: https://paykre.shop
+METHOD: /.env
+MAILHOST: ""
+MAILPORT: "465"
+MAILUSER: ""
+MAILPASS: ""
+MAILFROM: ""
+FROMNAME: "no-reply"
+ERROR: invalid literal for int() with base 10: '"465"'
+
+URL: https://redstagfinance.com
+METHOD: debug
+MAILHOST: redstagfinance.com
+MAILPORT: 465
+MAILUSER: noreply@redstagfinance.com
+MAILPASS: 22redstagfinancE23
+MAILFROM: 
+FROMNAME: 
+ERROR: (535, b'Incorrect authentication data')
+
+URL: https://unionpay.website
+METHOD: debug
+MAILHOST: vps.lapurecharge.com
+MAILPORT: 465
+MAILUSER: noreply@lapurecharge.com
+MAILPASS: nul
+MAILFROM: 
+FROMNAME: 
+ERROR: [Errno 60] Operation timed out
+
+URL: https://ar-akgroup.com
+METHOD: /.env
+MAILHOST: ""
+MAILPORT: 465
+MAILUSER: ""
+MAILPASS: ""
+MAILFROM: ""
+FROMNAME: "SoftLion"
+ERROR: [Errno 8] nodename nor servname provided, or not known
+
+URL: https://codesk.live
+METHOD: /.env
+MAILHOST: mail.codesk.live
+MAILPORT: 587
+MAILUSER: _mainaccount@codesk.live
+MAILPASS: MBWGp-C!*%X
+MAILFROM: _mainaccount@codesk.live
+FROMNAME: "${APP_NAME}"
+ERROR: {'test@example.com': (550, b'Verification failed for <_mainaccount@codesk.live>\nThe mail server does not recognize livecodesk@gains.safensign.com as a valid sender.\nSender verify failed')}
+
