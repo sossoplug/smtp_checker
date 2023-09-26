@@ -1,36 +1,35 @@
+# main.py
 import os
-from dotenv import load_dotenv, find_dotenv
-from utils import extract_smtp_details_from_sample, send_test_email
-
-# Load environment variables
-load_dotenv(find_dotenv())
-
-# File Names
-SMTP_SAMPLE_FILE                = "smtps.txt"
-WORKING_SMTP_FILE               = "working_smtps.txt"
-FAILED_SMTP_FILE                = "failed_smtps.txt"
+from utils import load_env_variables, extract_smtp_details_from_sample, print_banner, print_error, print_success
+from leads_management import clean_leads, read_leads_from_file, insert_test_email
+from bots import dispatch_leads_to_bots
 
 def main():
-    """
-    Main function to execute the SMTP testing process.
-    """
     try:
-        # SMTP Testing
-        smtp_details_list       = extract_smtp_details_from_sample(SMTP_SAMPLE_FILE)
+        # Display the banner
+        print_banner()
 
-        for smtp_details in smtp_details_list:
-            success, message    = send_test_email(smtp_details)
-            smtp_format         = f"URL: {smtp_details.get('URL', 'N/A')}\nMETHOD: {smtp_details.get('METHOD', 'N/A')}\nMAILHOST: {smtp_details['MAILHOST']}\nMAILPORT: {smtp_details['MAILPORT']}\nMAILUSER: {smtp_details['MAILUSER']}\nMAILPASS: {smtp_details['MAILPASS']}\nMAILFROM: {smtp_details.get('MAILFROM', 'N/A')}\nFROMNAME: {smtp_details.get('FROMNAME', 'N/A')}\n\n"
+        # Load environment variables
+        config              = load_env_variables()
 
-            with open(WORKING_SMTP_FILE if success else FAILED_SMTP_FILE, 'a') as file:
-                file.write(smtp_format)
-                if not success:
-                    file.write(f"ERROR: {message}\n")
+        # Read and clean leads
+        leads               = read_leads_from_file(config["LEADS_FILE_PATH"])
+        cleaned_leads       = clean_leads(leads)
 
-        print("SMTP testing completed.")
+        # Optionally insert a test email
+        if config["INSERT_TEST_EMAIL"] == "1":
+            cleaned_leads   = insert_test_email(cleaned_leads, config["TEST_EMAIL_RECIPIENT"], config["INTERVAL_BETWEEN_TEST_EMAIL"])
+
+        # Extract SMTP details
+        smtp_details_list   = extract_smtp_details_from_sample("path_to_smtp_details_sample.txt")  # Update the path accordingly
+
+        # Dispatch leads to bots for concurrent email sending
+        dispatch_leads_to_bots(smtp_details_list, cleaned_leads, config["EMAIL_SUBJECT"], config["EMAIL_BODY"], config["BOTS"])
+
+        print_success("Email sending process completed successfully!")
 
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print_error(f"An error occurred: {e}")
 
 if __name__ == "__main__":
     main()
