@@ -78,8 +78,10 @@ def send_test_email(smtp_details):
 
         server.login(SMTP_USER, SMTP_PASS)
         server.sendmail(SMTP_USER, RECIPIENT, f"Subject: {EMAIL_SUBJECT}\n\n{EMAIL_BODY}")
+        print(f"Smtp Check Result: {SMTP_HOST} works")
         server.quit()
         return True, "Success"
 
     except Exception as e:
+        print(f"Smtp Check Result: {SMTP_HOST} failed - {e}")
         return False, str(e)
