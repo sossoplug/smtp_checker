@@ -12,11 +12,11 @@ def load_env_variables():
     Returns: Dictionary containing SMTP details.
     """
     return {
-        "EMAIL_SUBJECT": os.getenv("EMAIL_SUBJECT", "Test Email from SMTP Checker"),
-        "EMAIL_BODY": os.getenv("EMAIL_BODY", "This is a test email sent by the SMTP Checker tool."),
-        "RECIPIENT": os.getenv("RECIPIENT", "test@example.com"),
-        "USE_PROXIES_HTTP": os.getenv("USE_PROXIES_HTTP", "0"),
-        "USE_PROXIES_SOCKS": os.getenv("USE_PROXIES_SOCKS", "0")
+        "EMAIL_SUBJECT":        os.getenv("TEST_EMAIL_SUBJECT"),
+        "EMAIL_BODY":           os.getenv("TEST_EMAIL_BODY"),
+        "RECIPIENT":            os.getenv("TEST_EMAIL_RECIPIENT"),
+        "USE_PROXIES_HTTP":     os.getenv("USE_PROXIES_HTTP", "0"),
+        "USE_PROXIES_SOCKS":    os.getenv("USE_PROXIES_SOCKS", "0")
     }
 
 # ==================
@@ -90,6 +90,7 @@ def get_random_proxy(proxy_type):
         print(f"Error fetching random {proxy_type} proxy: {e}")
         return None
 
+
 # ==================
 # Send Test Email
 # ==================
@@ -147,5 +148,6 @@ def send_test_email(smtp_details):
         return True, "Success"
 
     except Exception as e:
-        print(f"Smtp Check Result: {SMTP_HOST} works")
+        print(f"Smtp Check Result: {SMTP_HOST} failed - {e}")
+        return False, str(e)
 

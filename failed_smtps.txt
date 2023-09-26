@@ -538,3 +538,173 @@ MAILFROM: _mainaccount@codesk.live
 FROMNAME: "${APP_NAME}"
 
 ERROR: {'test@example.com': (550, b'Verification failed for <_mainaccount@codesk.live>\nThe mail server does not recognize livecodesk@gains.safensign.com as a valid sender.\nSender verify failed')}
+URL: https://aashonlineapp.com
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 587
+MAILUSER: email@gmail.com
+MAILPASS: xxxxxxxxxx
+MAILFROM: email@gmail.com
+FROMNAME: "Name application"
+
+ERROR: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials n15-20020a0ce54f000000b0065b27fe4737sm384354qvm.15 - gsmtp')
+URL: https://academica.top
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 587
+MAILUSER: smtp_user
+MAILPASS: smtp_pass
+MAILFROM: 
+FROMNAME: 
+
+ERROR: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials g7-20020ac85807000000b00400a99b8b38sm4502912qtg.78 - gsmtp')
+URL: https://aljamidtech.com
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 465
+MAILUSER: al.jamid2022@gmail.com
+MAILPASS: clepxwsrgpvtjryk
+MAILFROM: "al.jamid2022@gmail.com"
+FROMNAME: "${APP_NAME}"
+
+ERROR: (534, b'5.7.9 Please log in with your web browser and then try again. Learn more at\n5.7.9  https://support.google.com/mail/?p=WebLoginRequired s6-20020a0cdc06000000b006563c0aa959sm4874334qvk.13 - gsmtp')
+URL: https://hageteru.com
+METHOD: /.env
+MAILHOST: sv14411.xserver.jp
+MAILPORT: 465
+MAILUSER: code.sawa@hageteru.com
+MAILPASS: azumi123
+MAILFROM: code.sawa@hageteru.com
+FROMNAME: "${APP_NAME}"
+
+ERROR: (535, b'5.7.8 Error: authentication failed: authentication failure')
+URL: https://misk-soft.com
+METHOD: /.env
+MAILHOST: smtp.mailtrap.io
+MAILPORT: 587
+MAILUSER: 
+MAILPASS: 
+MAILFROM: "info@beattc.com"
+FROMNAME: "${APP_NAME}"
+
+ERROR: Connection unexpectedly closed
+URL: https://pamelcouture.com
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 587
+MAILUSER: dchauhan1514.ca20@chitkara.edu.in
+MAILPASS: Saibaba@333
+MAILFROM: dchauhan1514.ca20@chitkara.edu.in
+FROMNAME: "First Cup"
+
+ERROR: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials r25-20020a05620a03d900b00767e2668536sm4548106qkm.17 - gsmtp')
+URL: https://presisdemo.com
+METHOD: debug
+MAILHOST: *******
+MAILPORT: ****
+MAILUSER: ****
+MAILPASS: ****
+MAILFROM: ****
+FROMNAME: *******
+
+ERROR: invalid literal for int() with base 10: '****'
+URL: https://synapsprofit.com
+METHOD: /.env
+MAILHOST: synapsprofit.com
+MAILPORT: 465
+MAILUSER: support@synapsprofit.com
+MAILPASS: u$}z_xoY,ucm
+MAILFROM: support@synapsprofit.com
+FROMNAME: "${APP_NAME}"
+
+ERROR: (535, b'Incorrect authentication data')
+URL: https://xn--b1aghjbocagb2c.xn--p1ai
+METHOD: debug
+MAILHOST: **************
+MAILPORT: ***
+MAILUSER: *******************
+MAILPASS: *********
+MAILFROM: *******************
+FROMNAME: ******
+
+ERROR: invalid literal for int() with base 10: '***'
+URL: https://paramountvisionfinance.com
+METHOD: /.env
+MAILHOST: paramountvisionfinance.com
+MAILPORT: 465
+MAILUSER: support@paramountvisionfinance.com
+MAILPASS: swiftglo_paramount
+MAILFROM: 
+FROMNAME: 
+
+ERROR: {'test@example.com': (550, b'The mail server could not deliver mail to test@example.com.  The account or\ndomain may not exist, they may be blacklisted, or missing the proper dns\nentries.')}
+URL: https://aashonlineapp.com
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 587
+MAILUSER: email@gmail.com
+MAILPASS: xxxxxxxxxx
+MAILFROM: email@gmail.com
+FROMNAME: "Name application"
+
+ERROR: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials bm40-20020a05620a19a800b007742218dc42sm2961907qkb.119 - gsmtp')
+URL: https://academica.top
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 587
+MAILUSER: smtp_user
+MAILPASS: smtp_pass
+MAILFROM: 
+FROMNAME: 
+
+ERROR: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4-20020ad45ba4000000b00655ec7bbfd0sm3724747qvq.7 - gsmtp')
+URL: https://aljamidtech.com
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 465
+MAILUSER: al.jamid2022@gmail.com
+MAILPASS: clepxwsrgpvtjryk
+MAILFROM: "al.jamid2022@gmail.com"
+FROMNAME: "${APP_NAME}"
+
+ERROR: (534, b'5.7.9 Please log in with your web browser and then try again. Learn more at\n5.7.9  https://support.google.com/mail/?p=WebLoginRequired d26-20020a05620a137a00b0077439a5400csm850185qkl.62 - gsmtp')
+URL: https://hageteru.com
+METHOD: /.env
+MAILHOST: sv14411.xserver.jp
+MAILPORT: 465
+MAILUSER: code.sawa@hageteru.com
+MAILPASS: azumi123
+MAILFROM: code.sawa@hageteru.com
+FROMNAME: "${APP_NAME}"
+
+ERROR: (535, b'5.7.8 Error: authentication failed: authentication failure')
+URL: https://misk-soft.com
+METHOD: /.env
+MAILHOST: smtp.mailtrap.io
+MAILPORT: 587
+MAILUSER: 
+MAILPASS: 
+MAILFROM: "info@beattc.com"
+FROMNAME: "${APP_NAME}"
+
+ERROR: Connection unexpectedly closed
+URL: https://pamelcouture.com
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 587
+MAILUSER: dchauhan1514.ca20@chitkara.edu.in
+MAILPASS: Saibaba@333
+MAILFROM: dchauhan1514.ca20@chitkara.edu.in
+FROMNAME: "First Cup"
+
+ERROR: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials v4-20020a0c9c04000000b0065b2f4dd300sm57822qve.90 - gsmtp')
+URL: https://presisdemo.com
+METHOD: debug
+MAILHOST: *******
+MAILPORT: ****
+MAILUSER: ****
+MAILPASS: ****
+MAILFROM: ****
+FROMNAME: *******
+
+ERROR: invalid literal for int() with base 10: '****'
