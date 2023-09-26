@@ -1,0 +1,18 @@
+URL: https://asialook.store
+METHOD: debug
+MAILHOST: smtp.yandex.ru
+MAILPORT: 465
+MAILUSER: balsas2908bal@yandex.by
+MAILPASS: zfwizxvsbkohcblz
+MAILFROM: balsas2908bal@yandex.by
+FROMNAME: m-y.store
+
+URL: https://dhaneshacrop.com
+METHOD: /.env
+MAILHOST: smtp.gmail.com
+MAILPORT: 587
+MAILUSER: dhaneshacrops@gmail.com
+MAILPASS: juuhgwyeguoutimk
+MAILFROM: dhaneshacrops@gmail.com
+FROMNAME: "${APP_NAME}"
+

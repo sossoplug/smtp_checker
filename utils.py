@@ -1,7 +1,7 @@
 import os
 import random
 import smtplib
-import socks
+import socks, socket
 
 # ==================
 # Load Environment Variable
@@ -22,27 +22,41 @@ def load_env_variables():
 # ==================
 # Extract SMTP Details
 # ==================
-def extract_smtp_details_from_sample(line):
+def extract_smtp_details_from_sample(file_path):
     """
-    Extract SMTP details from a given line of the sample file.
+    Extract SMTP details from a given file.
+
     Args:
-    - line (str): Line from SMTP sample file.
+    - file_path (str):                      Path to the file containing SMTP details.
+
     Returns:
-    - Dictionary containing SMTP details or None if the line format is unexpected.
+    - list[dict]:                           A list of dictionaries containing SMTP details.
     """
     try:
-        details         = line.strip().split(":")
-        if len(details) != 4:
-            return None
-        return {
-            "MAILUSER": details[0],
-            "MAILPASS": details[1],
-            "MAILHOST": details[2],
-            "MAILPORT": details[3]
-        }
+        smtp_details_list                   = []
+
+        with open(file_path, 'r') as f:
+
+            smtp_details                    = {}
+            for line in f:
+                if not line.strip():  # Empty line, indicates end of one set of details
+                    if smtp_details:
+                        smtp_details_list.append(smtp_details)
+                        smtp_details        = {}
+                    continue
+
+                key, value = line.split(":", 1)
+                smtp_details[key.strip()]   = value.strip()
+
+            # Append the last set if it wasn't added due to a missing empty line at the end
+            if smtp_details:
+                smtp_details_list.append(smtp_details)
+
+        return smtp_details_list
+
     except Exception as e:
-        print(f"Error extracting SMTP details from {line}: {e}")
-        return None
+        print(f"Error extracting SMTP details from {file_path}: {e}")
+        return []
 
 # ==================
 # Retrieve Random Proxy
@@ -51,9 +65,9 @@ def get_random_proxy(proxy_type):
     """
     Fetch a random proxy from the respective proxy file.
     Args:
-    - proxy_type (str): Type of proxy ("http" or "socks").
+    - proxy_type (str):     Type of proxy ("http" or "socks").
     Returns:
-    - str: Proxy in format ip:port or None if an error occurred.
+    - str:                  Proxy in format ip:port or None if an error occurred.
     """
     try:
         if proxy_type == "http":
@@ -83,10 +97,10 @@ def send_test_email(smtp_details):
     """
     Send a test email using the provided SMTP details.
     Args:
-    - smtp_details (dict): Dictionary containing SMTP details.
+    - smtp_details (dict):      Dictionary containing SMTP details.
     Returns:
-    - bool: True if the email was sent successfully, False otherwise.
-    - str: Message indicating the result or the error.
+    - bool:                     True if the email was sent successfully, False otherwise.
+    - str:                      Message indicating the result or the error.
     """
     try:
         # Extracting SMTP details
