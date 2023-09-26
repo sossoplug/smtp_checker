@@ -2,9 +2,9 @@ import os
 from utils import extract_smtp_details_from_sample, send_test_email
 
 # File Names
-SMTP_SAMPLE_FILE    = "smtps.txt"
-WORKING_SMTP_FILE   = "working_smtps.txt"
-FAILED_SMTP_FILE    = "failed_smtps.txt"
+SMTP_SAMPLE_FILE                    = "smtps.txt"
+WORKING_SMTP_FILE                   = "working_smtps.txt"
+FAILED_SMTP_FILE                    = "failed_smtps.txt"
 
 
 def main():
@@ -13,7 +13,7 @@ def main():
     """
     try:
         # Extract SMTP details
-        smtp_details_list = extract_smtp_details_from_sample(SMTP_SAMPLE_FILE)
+        smtp_details_list           = extract_smtp_details_from_sample(SMTP_SAMPLE_FILE)
 
         if not smtp_details_list:
             print(f"No SMTP details found in {SMTP_SAMPLE_FILE}.")
@@ -22,10 +22,11 @@ def main():
         # Open output files for logging
         with open(WORKING_SMTP_FILE, 'w') as working_file, open(FAILED_SMTP_FILE, 'w') as failed_file:
             for smtp_details in smtp_details_list:
-                success, message = send_test_email(smtp_details)
+
+                success, message    = send_test_email(smtp_details)
 
                 # Formatting the output
-                output_format = "\n".join([f"{key}: {value}" for key, value in smtp_details.items()])
+                output_format       = "\n".join([f"{key}: {value}" for key, value in smtp_details.items()])
 
                 if success:
                     working_file.write(output_format + "\n\n")
@@ -39,4 +40,5 @@ def main():
 
 
 if __name__ == "__main__":
+    print(f"Press Ctrl + C To Cancel Checking")
     main()
