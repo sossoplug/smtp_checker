@@ -1,6 +1,17 @@
-# SMTP Checker
+# Email Sender Bot
 
-This tool is designed to test SMTP server credentials from a sample file and report on their validity.
+This project provides a solution for sending bulk emails using multiple bots concurrently. It's designed to be flexible, allowing for the use of multiple SMTP servers, and can be configured to use proxies for sending emails.
+
+## Table of Contents
+
+- [Requirements](#requirements)
+- [Setup](#setup)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Files and Modules](#files-and-modules)
+- [Contributing](#contributing)
+- [License](#license)
+
 
 ## Requirements:
 
@@ -16,24 +27,45 @@ MAILPASS: <SMTP_PASS>
 MAILFROM: <MAIL_FROM> (Optional)
 FROMNAME: <FROM_NAME> (Optional)
 
-4. Default email subject and recipient stored in an `.env` file:
-   - `DEFAULT_EMAIL_SUBJECT`
-   - `DEFAULT_RECIPIENT`
 
-## Plan:
+## Setup
 
-1. Load environment variables from the `.env` file.
-2. Extract SMTP details from the `smtps.txt` sample file.
-3. Test each SMTP credential:
-    - Use the provided `MAILFROM` and `FROMNAME` or use defaults if not provided.
-    - Handle both port 465 (SSL) and port 587 (TLS).
-4. Write the results:
-    - Working SMTP credentials are written to `working_smtps.txt`.
-    - Failed SMTP credentials, along with the associated error, are written to `failed_smtps.txt`. Both files have the same structure as the sample file.
+1. Clone the repository.
+2. Install the required dependencies.
+3. Set up your `.env` file with the necessary configurations (see [Configuration](#configuration) section).
 
-## Usage:
+## Configuration
 
-1. Ensure the SMTP sample file (`smtps.txt`) is in the same directory as the script.
-2. Run `main.py`.
-3. Check `working_smtps.txt` for valid SMTP credentials and `failed_smtps.txt` for invalid ones.
+The `.env` file contains various configurations for the email sender:
 
+- **Email Content**: Set your default email subject and body.
+- **Proxy Configuration**: Choose whether to use HTTP or SOCKS proxies.
+- **File Management**: Specify the path to your leads file and the smtps file.
+- **Bots Configuration**: Set the number of bots and the delay between email sends.
+- **Logging Configuration**: Specify the path to the log file.
+- **Optional Test Email Insertion**: Decide whether to insert a test email at specified intervals.
+
+For a detailed breakdown of each configuration, refer to the provided `.env` file in the repository.
+
+## Usage
+
+1. Ensure your leads file is populated with the email addresses you want to target.
+2. If using proxies, make sure the respective proxy files (`http_proxies.txt` and `socks.txt`) are populated.
+3. Ensure your smtps file is populated with the smtps credentials in the right format.
+4. Run the `main.py` script to start the email sending process.
+
+## Files and Modules
+
+- **.env**: Contains configuration details.
+- **utils.py**: Utility functions for the project.
+- **bots.py**: Logic related to the email sending bots.
+- **leads_management.py**: Functions related to managing and cleaning email leads.
+- **main.py**: The main execution script that organizes and calls other methods.
+
+## Contributing
+
+Contributions are welcome! Please ensure that any changes made are in line with the project's overall goals and functionalities.
+
+## License
+
+This project is licensed under the MIT License.

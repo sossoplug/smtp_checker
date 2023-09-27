@@ -21,18 +21,18 @@ def load_env_variables():
         load_dotenv()
 
         return {
-            "EMAIL_SUBJECT": os.getenv("EMAIL_SUBJECT"),
-            "EMAIL_BODY": os.getenv("EMAIL_BODY"),
-            "TEST_EMAIL_RECIPIENT": os.getenv("TEST_EMAIL_RECIPIENT"),
-            "USE_PROXIES_HTTP": os.getenv("USE_PROXIES_HTTP", "0"),
-            "USE_PROXIES_SOCKS": os.getenv("USE_PROXIES_SOCKS", "0"),
-            "LEADS_FILE_PATH": os.getenv("LEADS_FILE_PATH"),
-            "CLEANED_LEADS_FILE_PATH": os.getenv("CLEANED_LEADS_FILE_PATH"),
-            "BOTS": int(os.getenv("BOTS", 5)),
-            "DELAY_IN_SECONDS": int(os.getenv("DELAY_IN_SECONDS", 1)),
-            "LOG_FILE_PATH": os.getenv("LOG_FILE_PATH"),
-            "INSERT_TEST_EMAIL": os.getenv("INSERT_TEST_EMAIL", "0"),
-            "INTERVAL_BETWEEN_TEST_EMAIL": int(os.getenv("INTERVAL_BETWEEN_TEST_EMAIL", 1000))
+            "EMAIL_SUBJECT":                os.getenv("EMAIL_SUBJECT"),
+            "EMAIL_BODY":                   os.getenv("EMAIL_BODY"),
+            "TEST_EMAIL_RECIPIENT":         os.getenv("TEST_EMAIL_RECIPIENT"),
+            "USE_PROXIES_HTTP":             os.getenv("USE_PROXIES_HTTP", "0"),
+            "USE_PROXIES_SOCKS":            os.getenv("USE_PROXIES_SOCKS", "0"),
+            "SMTPS_FILE_PATH":              os.getenv("SMTPS_FILE_PATH"),
+            "CLEANED_LEADS_FILE_PATH":      os.getenv("CLEANED_LEADS_FILE_PATH"),
+            "BOTS":                         int(os.getenv("BOTS", 5)),
+            "DELAY_IN_SECONDS":             int(os.getenv("DELAY_IN_SECONDS", 1)),
+            "LOG_FILE_PATH":                os.getenv("LOG_FILE_PATH"),
+            "INSERT_TEST_EMAIL":            os.getenv("INSERT_TEST_EMAIL", "0"),
+            "INTERVAL_BETWEEN_TEST_EMAIL":  int(os.getenv("INTERVAL_BETWEEN_TEST_EMAIL", 1000))
         }
     except Exception as e:
         print_error(f"Error loading environment variables: {e}")
