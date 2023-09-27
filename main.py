@@ -21,8 +21,8 @@ def main():
             cleaned_leads   = insert_test_email(cleaned_leads, config["TEST_EMAIL_RECIPIENT"], config["INTERVAL_BETWEEN_TEST_EMAIL"])
 
         # Extract SMTP details
-        smtp_details_list   = extract_smtp_details_from_sample("path_to_smtp_details_sample.txt")  # Update the path accordingly
-
+        smtp_details_list   = extract_smtp_details_from_sample("smtps.txt")  # Update the path accordingly
+        #
         # Dispatch leads to bots for concurrent email sending
         dispatch_leads_to_bots(smtp_details_list, cleaned_leads, config["EMAIL_SUBJECT"], config["EMAIL_BODY"], config["BOTS"])
 

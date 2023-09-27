@@ -24,14 +24,15 @@ def read_leads_from_file(file_path):
     Read leads (email addresses) from a file.
 
     Args:
-    - file_path (str): Path to the file containing email leads.
+    - file_path (str):  Path to the file containing email leads.
 
     Returns:
-    - list[str]: List of email addresses.
+    - list[str]:        List of email addresses.
     """
     try:
         with open(file_path, 'r') as file:
-            leads = file.readlines()
+            leads       = file.readlines()
+
         return [lead.strip() for lead in leads]
     except Exception as e:
         print(f"Error reading leads from {file_path}: {e}")
@@ -51,8 +52,16 @@ def insert_test_email(leads, test_email, interval):
     - list[str]: List of email addresses with the test email inserted at specified intervals.
     """
     try:
+        # Insert test email at the beginning of the list
+        leads.insert(0, test_email)
+
+        # Insert test email at specified intervals, starting from the interval index
         for i in range(interval, len(leads), interval):
             leads.insert(i, test_email)
+
+        # Insert test email at the end of the list
+        leads.append(test_email)
+
         return leads
     except Exception as e:
         print(f"Error inserting test email: {e}")

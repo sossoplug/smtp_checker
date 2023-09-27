@@ -3,6 +3,7 @@ import os
 import random
 import smtplib
 import socks, socket
+from dotenv import load_dotenv
 
 
 # ==================
@@ -16,6 +17,9 @@ def load_env_variables():
         dict: Dictionary containing configuration details.
     """
     try:
+        # Load environment variables from .env file
+        load_dotenv()
+
         return {
             "EMAIL_SUBJECT": os.getenv("EMAIL_SUBJECT"),
             "EMAIL_BODY": os.getenv("EMAIL_BODY"),
