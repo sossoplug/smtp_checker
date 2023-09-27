@@ -1,44 +1,36 @@
 import os
+from dotenv import load_dotenv, find_dotenv
 from utils import extract_smtp_details_from_sample, send_test_email
 
-# File Names
-SMTP_SAMPLE_FILE                    = "smtps.txt"
-WORKING_SMTP_FILE                   = "working_smtps.txt"
-FAILED_SMTP_FILE                    = "failed_smtps.txt"
+# Load environment variables
+load_dotenv(find_dotenv())
 
+# File Names
+SMTP_SAMPLE_FILE                = "smtps.txt"
+WORKING_SMTP_FILE               = "working_smtps.txt"
+FAILED_SMTP_FILE                = "failed_smtps.txt"
 
 def main():
     """
-    Main function to test SMTP configurations and log the results.
+    Main function to execute the SMTP testing process.
     """
     try:
-        # Extract SMTP details
-        smtp_details_list           = extract_smtp_details_from_sample(SMTP_SAMPLE_FILE)
+        # SMTP Testing
+        smtp_details_list       = extract_smtp_details_from_sample(SMTP_SAMPLE_FILE)
 
-        if not smtp_details_list:
-            print(f"No SMTP details found in {SMTP_SAMPLE_FILE}.")
-            return
+        for smtp_details in smtp_details_list:
+            success, message    = send_test_email(smtp_details)
+            smtp_format         = f"URL: {smtp_details.get('URL', 'N/A')}\nMETHOD: {smtp_details.get('METHOD', 'N/A')}\nMAILHOST: {smtp_details['MAILHOST']}\nMAILPORT: {smtp_details['MAILPORT']}\nMAILUSER: {smtp_details['MAILUSER']}\nMAILPASS: {smtp_details['MAILPASS']}\nMAILFROM: {smtp_details.get('MAILFROM', 'N/A')}\nFROMNAME: {smtp_details.get('FROMNAME', 'N/A')}\n\n"
 
-        # Open output files for logging
-        with open(WORKING_SMTP_FILE, 'w') as working_file, open(FAILED_SMTP_FILE, 'w') as failed_file:
-            for smtp_details in smtp_details_list:
-
-                success, message    = send_test_email(smtp_details)
-
-                # Formatting the output
-                output_format       = "\n".join([f"{key}: {value}" for key, value in smtp_details.items()])
-
-                if success:
-                    working_file.write(output_format + "\n\n")
-                else:
-                    failed_file.write(output_format + f"\nERROR: {message}\n\n")
+            with open(WORKING_SMTP_FILE if success else FAILED_SMTP_FILE, 'a') as file:
+                file.write(smtp_format)
+                if not success:
+                    file.write(f"ERROR: {message}\n")
 
         print("SMTP testing completed.")
 
     except Exception as e:
         print(f"An error occurred: {e}")
 
-
 if __name__ == "__main__":
-    print(f"Press Ctrl + C To Cancel Checking")
     main()

@@ -16,12 +16,3 @@ MAILPASS: juuhgwyeguoutimk
 MAILFROM: dhaneshacrops@gmail.com
 FROMNAME: "${APP_NAME}"
 
-URL: https://bptaps.com
-METHOD: debug
-MAILHOST: bptaps.com
-MAILPORT: 465
-MAILUSER: info@bptaps.com
-MAILPASS: 8kRLZE5rQHRr
-MAILFROM: info@bptaps.com
-FROMNAME: 
-
