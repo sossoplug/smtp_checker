@@ -151,3 +151,23 @@ def send_test_email(smtp_details):
         print(f"Smtp Check Result: {SMTP_HOST} failed - {e}")
         return False, str(e)
 
+
+
+
+# ===================
+#  Wipe Clean a file
+# ===================
+def wipe_file_clean(file_path):
+    """
+    Wipe clean a file
+    - file_path (str):   Path to the file containing SMTP details.
+    Returns:             None.
+    """
+    try:
+        with open(file_path, 'w') as file:
+            pass
+
+        print(f"File '{file_path}' has been wiped clean.")
+
+    except Exception as e:
+        print(f"An error occurred while wiping the file '{file_path}': {e}")

@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv, find_dotenv
-from utils import extract_smtp_details_from_sample, send_test_email
+from utils import extract_smtp_details_from_sample, send_test_email, wipe_file_clean
 
 # Load environment variables
 load_dotenv(find_dotenv())
@@ -15,6 +15,10 @@ def main():
     Main function to execute the SMTP testing process.
     """
     try:
+        # Cleaned files
+        wipe_file_clean(WORKING_SMTP_FILE)
+        wipe_file_clean(FAILED_SMTP_FILE)
+
         # SMTP Testing
         smtp_details_list       = extract_smtp_details_from_sample(SMTP_SAMPLE_FILE)
 
