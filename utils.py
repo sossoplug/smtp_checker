@@ -129,9 +129,9 @@ def send_test_email(smtp_details):
                 socks.wrap_module(smtplib)
 
         # Email content from environment variables
-        EMAIL_SUBJECT           = os.getenv("EMAIL_SUBJECT", "Test Email from SMTP Checker")
-        EMAIL_BODY              = os.getenv("EMAIL_BODY", "This is a test email sent by the SMTP Checker tool.")
-        RECIPIENT               = os.getenv("RECIPIENT", "test@example.com")
+        EMAIL_SUBJECT           = os.getenv("TEST_EMAIL_SUBJECT")
+        EMAIL_BODY              = os.getenv("TEST_EMAIL_BODY")
+        RECIPIENT               = os.getenv("TEST_EMAIL_RECIPIENT")
 
         if SMTP_PORT == 465:
             server              = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT)
