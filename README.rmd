@@ -1,12 +1,14 @@
-# SMTP Checker
+SMTP Checker
 
 This tool is designed to test SMTP server credentials from a sample file and report on their validity.
 
-## Requirements:
+📋 Requirements:
 
-1. Python environment.
-2. `smtplib` and `os` Python standard libraries.
-3. SMTP sample file (`smtps.txt`) with the following structure:
+Python Environment: Ensure you have Python set up on your machine.
+Python Libraries: This tool uses the smtplib and os standard libraries.
+SMTP Sample File (smtps.txt): The file should have the following structure:
+vbnet
+Copy code
 URL: <URL>
 METHOD: <METHOD>
 MAILHOST: <SMTP_HOST>
@@ -15,25 +17,23 @@ MAILUSER: <SMTP_USER>
 MAILPASS: <SMTP_PASS>
 MAILFROM: <MAIL_FROM> (Optional)
 FROMNAME: <FROM_NAME> (Optional)
+Environment Variables: Store default email subject and recipient in an .env file:
+DEFAULT_EMAIL_SUBJECT
+DEFAULT_RECIPIENT
+🚀 Plan:
 
-4. Default email subject and recipient stored in an `.env` file:
-   - `DEFAULT_EMAIL_SUBJECT`
-   - `DEFAULT_RECIPIENT`
+Load Environment Variables: Extract values from the .env file.
+Extract SMTP Details: Read the smtps.txt sample file.
+Test SMTP Credentials:
+Use provided MAILFROM and FROMNAME or defaults if not provided.
+Handle both port 465 (SSL) and port 587 (TLS).
+Write Results:
+Success: Working SMTP credentials are saved to working_smtps.txt.
+Failure: Failed SMTP credentials, along with errors, are saved to failed_smtps.txt. Both files maintain the structure of the sample file.
+🛠 Usage:
 
-## Plan:
-
-1. Load environment variables from the `.env` file.
-2. Extract SMTP details from the `smtps.txt` sample file.
-3. Test each SMTP credential:
-    - Use the provided `MAILFROM` and `FROMNAME` or use defaults if not provided.
-    - Handle both port 465 (SSL) and port 587 (TLS).
-4. Write the results:
-    - Working SMTP credentials are written to `working_smtps.txt`.
-    - Failed SMTP credentials, along with the associated error, are written to `failed_smtps.txt`. Both files have the same structure as the sample file.
-
-## Usage:
-
-1. Ensure the SMTP sample file (`smtps.txt`) is in the same directory as the script.
-2. Run `main.py`.
-3. Check `working_smtps.txt` for valid SMTP credentials and `failed_smtps.txt` for invalid ones.
-
+Ensure the SMTP sample file (smtps.txt) is in the same directory as the script.
+Execute the script: python main.py.
+Review Results:
+Valid Credentials: Check working_smtps.txt.
+Invalid Credentials: Refer to failed_smtps.txt.
