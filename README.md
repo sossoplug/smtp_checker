@@ -33,7 +33,7 @@ FROMNAME: <FROM_NAME> (Optional)
 2. **Extract SMTP Details**: Read the `smtps.txt` sample file.
 3. **Test SMTP Credentials**:
   - Use provided `MAILFROM` and `FROMNAME` or defaults if not provided.
-  - Handle both port 465 (SSL) and port 587 (TLS).
+  - Handle both port 465 (SSL) and ports  [587,585, 1025, 2525, 25] (TLS).
 4. **Write Results**:
   - **Success**: Working SMTP credentials are saved to `working_smtps.txt`.
   - **Failure**: Failed SMTP credentials, along with errors, are saved to `failed_smtps.txt`. Both files maintain the structure of the sample file.

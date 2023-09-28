@@ -135,7 +135,7 @@ def send_test_email(smtp_details):
 
         if SMTP_PORT == 465:
             server              = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT)
-        elif SMTP_PORT == 587:
+        elif SMTP_PORT in [587, 585, 1025, 2525, 25]:
             server              = smtplib.SMTP(SMTP_HOST, SMTP_PORT)
             server.starttls()
         else:
