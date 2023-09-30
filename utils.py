@@ -1,3 +1,4 @@
+import datetime
 import os
 import random
 import smtplib
@@ -16,7 +17,8 @@ def load_env_variables():
         "EMAIL_BODY":           os.getenv("TEST_EMAIL_BODY"),
         "RECIPIENT":            os.getenv("TEST_EMAIL_RECIPIENT"),
         "USE_PROXIES_HTTP":     os.getenv("USE_PROXIES_HTTP", "0"),
-        "USE_PROXIES_SOCKS":    os.getenv("USE_PROXIES_SOCKS", "0")
+        "USE_PROXIES_SOCKS":    os.getenv("USE_PROXIES_SOCKS", "0"),
+        "LOG_OUTPUT_FILEPATH":  os.getenv("LOG_OUTPUT_FILEPATH")
     }
 
 # ==================
@@ -145,12 +147,16 @@ def send_test_email(smtp_details):
         server.sendmail(SMTP_USER, RECIPIENT, f"Subject: {EMAIL_SUBJECT}\n\n{EMAIL_BODY}")
         print(f"==================================================")
         print(f"Smtp Check Result: {SMTP_HOST} works")
+        write_to_log(f"==================================================", "")
+        write_to_log(f"Smtp Check Result: {SMTP_HOST} works", "INFO")
         server.quit()
         return True, "Success"
 
     except Exception as e:
         print(f"==================================================")
         print(f"Smtp Check Result: {SMTP_HOST} failed - {e}")
+        write_to_log(f"==================================================", "")
+        write_to_log(f"Smtp Check Result: {SMTP_HOST} failed - {e}", "INFO")
         return False, str(e)
 
 
@@ -173,3 +179,25 @@ def wipe_file_clean(file_path):
 
     except Exception as e:
         print(f"An error occurred while wiping the file '{file_path}': {e}")
+
+
+# ==================
+# Write to Log
+# ==================
+def write_to_log(message, status):
+    """
+    Write a message to the log file.
+
+    Args:
+    - message (str):                    The message to be logged.
+    - status (str):                     The status of the message (ERROR/SUCCESS).
+
+    Returns:
+    - None
+    """
+    try:
+        timestamp                       = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        with open(os.getenv("LOG_OUTPUT_FILEPATH"), "a") as log_file:
+            log_file.write(f"[{timestamp}] INFO: [{status}]: {message}\n")
+    except Exception as e:
+        print(f"[ERROR]: Failed to write to log. {str(e)}")

@@ -1,0 +1,358 @@
+[2023-09-29 21:53:15] INFO: []: ==================================================
+[2023-09-29 21:53:15] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4-20020ad45ba4000000b00655ec7bbfd0sm6602805qvq.7 - gsmtp')
+[2023-09-29 21:53:16] INFO: []: ==================================================
+[2023-09-29 21:53:16] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials m23-20020ae9e017000000b007757f6558b3sm1660930qkk.95 - gsmtp')
+[2023-09-29 21:53:18] INFO: []: ==================================================
+[2023-09-29 21:53:18] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (534, b'5.7.9 Please log in with your web browser and then try again. Learn more at\n5.7.9  https://support.google.com/mail/?p=WebLoginRequired w1-20020a0cb541000000b0065b10dbcd53sm4569530qvd.120 - gsmtp')
+[2023-09-29 21:53:22] INFO: []: ==================================================
+[2023-09-29 21:53:22] INFO: [INFO]: Smtp Check Result: sv14411.xserver.jp failed - (535, b'5.7.8 Error: authentication failed: authentication failure')
+[2023-09-29 21:53:24] INFO: []: ==================================================
+[2023-09-29 21:53:24] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 21:53:26] INFO: []: ==================================================
+[2023-09-29 21:53:26] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials pe3-20020a05620a850300b007726002d69esm7375006qkn.10 - gsmtp')
+[2023-09-29 21:53:26] INFO: []: ==================================================
+[2023-09-29 21:53:26] INFO: [INFO]: Smtp Check Result: ******* failed - invalid literal for int() with base 10: '****'
+[2023-09-29 21:53:36] INFO: []: ==================================================
+[2023-09-29 21:53:36] INFO: [INFO]: Smtp Check Result: synapsprofit.com failed - (535, b'Incorrect authentication data')
+[2023-09-29 21:53:36] INFO: []: ==================================================
+[2023-09-29 21:53:36] INFO: [INFO]: Smtp Check Result: ************** failed - invalid literal for int() with base 10: '***'
+[2023-09-29 21:53:38] INFO: []: ==================================================
+[2023-09-29 21:53:38] INFO: [INFO]: Smtp Check Result: paramountvisionfinance.com works
+[2023-09-29 21:53:43] INFO: []: ==================================================
+[2023-09-29 21:53:43] INFO: [INFO]: Smtp Check Result: smtp.titan.email failed - (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+[2023-09-29 21:53:44] INFO: []: ==================================================
+[2023-09-29 21:53:44] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials mm5-20020a0562145e8500b006564afc5908sm7085465qvb.111 - gsmtp')
+[2023-09-29 21:53:47] INFO: []: ==================================================
+[2023-09-29 21:53:47] INFO: [INFO]: Smtp Check Result: smtp.yandex.ru works
+[2023-09-29 21:53:49] INFO: []: ==================================================
+[2023-09-29 21:53:49] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - can only concatenate str (not "bytes") to str
+[2023-09-29 21:53:51] INFO: []: ==================================================
+[2023-09-29 21:53:51] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials p17-20020a0cf551000000b0065b1b5cd70csm3982631qvm.31 - gsmtp')
+[2023-09-29 21:53:56] INFO: []: ==================================================
+[2023-09-29 21:53:56] INFO: [INFO]: Smtp Check Result: smtp.hostinger.com failed - (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+[2023-09-29 21:54:01] INFO: []: ==================================================
+[2023-09-29 21:54:01] INFO: [INFO]: Smtp Check Result: smtp.titan.email failed - (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+[2023-09-29 21:54:02] INFO: []: ==================================================
+[2023-09-29 21:54:02] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 21:54:04] INFO: []: ==================================================
+[2023-09-29 21:54:04] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials x9-20020a0ce0c9000000b0065d051fc445sm2101269qvk.55 - gsmtp')
+[2023-09-29 21:54:16] INFO: []: ==================================================
+[2023-09-29 21:54:16] INFO: [INFO]: Smtp Check Result: smtp.panel247.com failed - (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+[2023-09-29 21:55:31] INFO: []: ==================================================
+[2023-09-29 21:55:31] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - [Errno 60] Operation timed out
+[2023-09-29 21:55:31] INFO: []: ==================================================
+[2023-09-29 21:55:31] INFO: [INFO]: Smtp Check Result: mail.roinetcoin.network failed - [Errno 8] nodename nor servname provided, or not known
+[2023-09-29 21:55:32] INFO: []: ==================================================
+[2023-09-29 21:55:32] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials q26-20020a05620a039a00b007671cfe8a18sm1301243qkm.13 - gsmtp')
+[2023-09-29 21:55:33] INFO: []: ==================================================
+[2023-09-29 21:55:33] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (534, b'5.7.9 Please log in with your web browser and then try again. Learn more at\n5.7.9  https://support.google.com/mail/?p=WebLoginRequired u25-20020ae9c019000000b0076f18be9a64sm4755000qkk.81 - gsmtp')
+[2023-09-29 21:55:38] INFO: []: ==================================================
+[2023-09-29 21:55:38] INFO: [INFO]: Smtp Check Result: smtp.titan.email failed - (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+[2023-09-29 21:55:39] INFO: []: ==================================================
+[2023-09-29 21:55:39] INFO: [INFO]: Smtp Check Result: smtp.ionos.es failed - (535, b'Authentication credentials invalid')
+[2023-09-29 21:55:45] INFO: []: ==================================================
+[2023-09-29 21:55:45] INFO: [INFO]: Smtp Check Result: md-in-92.webhostbox.net works
+[2023-09-29 21:55:57] INFO: []: ==================================================
+[2023-09-29 21:55:57] INFO: [INFO]: Smtp Check Result: mail.siteadi.com failed - (535, b'Incorrect authentication data')
+[2023-09-29 21:56:05] INFO: []: ==================================================
+[2023-09-29 21:56:05] INFO: [INFO]: Smtp Check Result: smtp.elasticemail.com failed - (535, b'535 Authentication failed: Error: Account is locked.')
+[2023-09-29 21:56:09] INFO: []: ==================================================
+[2023-09-29 21:56:09] INFO: [INFO]: Smtp Check Result: smtp.hostinger.com failed - (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+[2023-09-29 21:56:09] INFO: []: ==================================================
+[2023-09-29 21:56:09] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials g9-20020a37e209000000b0076ee973b9a7sm4757922qki.27 - gsmtp')
+[2023-09-29 21:56:22] INFO: []: ==================================================
+[2023-09-29 21:56:22] INFO: [INFO]: Smtp Check Result: friendlypos.net failed - (535, b'Incorrect authentication data')
+[2023-09-29 21:56:22] INFO: []: ==================================================
+[2023-09-29 21:56:22] INFO: [INFO]: Smtp Check Result: mailhog failed - [Errno 8] nodename nor servname provided, or not known
+[2023-09-29 21:56:23] INFO: []: ==================================================
+[2023-09-29 21:56:23] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (501, b'5.5.2 Cannot Decode response i12-20020a0cf38c000000b0065d034d8f39sm2156646qvk.81 - gsmtp')
+[2023-09-29 21:56:23] INFO: []: ==================================================
+[2023-09-29 21:56:23] INFO: [INFO]: Smtp Check Result:  failed - please run connect() first
+[2023-09-29 21:56:24] INFO: []: ==================================================
+[2023-09-29 21:56:24] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 21:56:28] INFO: []: ==================================================
+[2023-09-29 21:56:28] INFO: [INFO]: Smtp Check Result: smtp.hostinger.com failed - (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+[2023-09-29 21:56:28] INFO: []: ==================================================
+[2023-09-29 21:56:28] INFO: [INFO]: Smtp Check Result:  failed - invalid literal for int() with base 10: ''
+[2023-09-29 21:57:43] INFO: []: ==================================================
+[2023-09-29 21:57:43] INFO: [INFO]: Smtp Check Result: absearning.com failed - [Errno 60] Operation timed out
+[2023-09-29 21:57:44] INFO: []: ==================================================
+[2023-09-29 21:57:44] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (534, b'5.7.9 Please log in with your web browser and then try again. Learn more at\n5.7.9  https://support.google.com/mail/?p=WebLoginRequired s27-20020a05620a031b00b0076d6a08ac98sm2986350qkm.76 - gsmtp')
+[2023-09-29 21:57:44] INFO: []: ==================================================
+[2023-09-29 21:57:44] INFO: [INFO]: Smtp Check Result:  failed - please run connect() first
+[2023-09-29 21:57:53] INFO: []: ==================================================
+[2023-09-29 21:57:53] INFO: [INFO]: Smtp Check Result: redstagfinance.com failed - (535, b'Incorrect authentication data')
+[2023-09-29 21:59:08] INFO: []: ==================================================
+[2023-09-29 21:59:08] INFO: [INFO]: Smtp Check Result: vps.lapurecharge.com failed - [Errno 60] Operation timed out
+[2023-09-29 21:59:08] INFO: []: ==================================================
+[2023-09-29 21:59:08] INFO: [INFO]: Smtp Check Result:  failed - please run connect() first
+[2023-09-29 22:00:31] INFO: []: ==================================================
+[2023-09-29 22:00:31] INFO: [INFO]: Smtp Check Result: mail.codesk.live failed - {'nolzqlf@gmail.com': (550, b'Verification failed for <_mainaccount@codesk.live>\nThe mail server does not recognize livecodesk@gains.safensign.com as a valid sender.\nSender verify failed')}
+[2023-09-29 22:00:33] INFO: []: ==================================================
+[2023-09-29 22:00:33] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (550, b'5.4.5 Daily user sending quota exceeded. f27-20020a0caa9b000000b0065b14fcfca6sm4351137qvb.118 - gsmtp')
+[2023-09-29 22:00:33] INFO: []: ==================================================
+[2023-09-29 22:00:33] INFO: [INFO]: Smtp Check Result: mailhog failed - [Errno 8] nodename nor servname provided, or not known
+[2023-09-29 22:00:42] INFO: []: ==================================================
+[2023-09-29 22:00:42] INFO: [INFO]: Smtp Check Result: premium96.web-hosting.com failed - (535, b'Incorrect authentication data')
+[2023-09-29 22:00:43] INFO: []: ==================================================
+[2023-09-29 22:00:43] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (534, b'5.7.9 Please log in with your web browser and then try again. Learn more at\n5.7.9  https://support.google.com/mail/?p=WebLoginRequired z10-20020ac87caa000000b0040399fb5ef3sm2991601qtv.0 - gsmtp')
+[2023-09-29 22:00:55] INFO: []: ==================================================
+[2023-09-29 22:00:55] INFO: [INFO]: Smtp Check Result: mail.tunajifoundation.com works
+[2023-09-29 22:00:58] INFO: []: ==================================================
+[2023-09-29 22:00:58] INFO: [INFO]: Smtp Check Result: varna.serveriai.lt failed - (535, b'Incorrect authentication data')
+[2023-09-29 22:00:58] INFO: []: ==================================================
+[2023-09-29 22:00:58] INFO: [INFO]: Smtp Check Result:  failed - please run connect() first
+[2023-09-29 22:00:59] INFO: []: ==================================================
+[2023-09-29 22:00:59] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 22:01:04] INFO: []: ==================================================
+[2023-09-29 22:01:04] INFO: [INFO]: Smtp Check Result: smtp.titan.email failed - (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+[2023-09-29 22:01:04] INFO: []: ==================================================
+[2023-09-29 22:01:04] INFO: [INFO]: Smtp Check Result: null failed - invalid literal for int() with base 10: 'null'
+[2023-09-29 22:01:04] INFO: []: ==================================================
+[2023-09-29 22:01:04] INFO: [INFO]: Smtp Check Result: mailhog failed - [Errno 8] nodename nor servname provided, or not known
+[2023-09-29 22:01:05] INFO: []: ==================================================
+[2023-09-29 22:01:05] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials d17-20020a0caa11000000b006583270ea64sm7840741qvb.139 - gsmtp')
+[2023-09-29 22:01:08] INFO: []: ==================================================
+[2023-09-29 22:01:08] INFO: [INFO]: Smtp Check Result: smtp.gmail.com works
+[2023-09-29 22:02:23] INFO: []: ==================================================
+[2023-09-29 22:02:23] INFO: [INFO]: Smtp Check Result: banodoctor.com failed - [Errno 60] Operation timed out
+[2023-09-29 22:03:38] INFO: []: ==================================================
+[2023-09-29 22:03:38] INFO: [INFO]: Smtp Check Result: data.com failed - [Errno 60] Operation timed out
+[2023-09-29 22:03:49] INFO: []: ==================================================
+[2023-09-29 22:03:49] INFO: [INFO]: Smtp Check Result: mail.ibulud.com failed - (535, b'Incorrect authentication data')
+[2023-09-29 22:03:51] INFO: []: ==================================================
+[2023-09-29 22:03:51] INFO: [INFO]: Smtp Check Result: mail.escrowapp.app works
+[2023-09-29 22:04:03] INFO: []: ==================================================
+[2023-09-29 22:04:03] INFO: [INFO]: Smtp Check Result: mail.privateemail.com failed - (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+[2023-09-29 22:04:03] INFO: []: ==================================================
+[2023-09-29 22:04:03] INFO: [INFO]: Smtp Check Result: ************** failed - invalid literal for int() with base 10: '***'
+[2023-09-29 22:04:03] INFO: []: ==================================================
+[2023-09-29 22:04:03] INFO: [INFO]: Smtp Check Result: mail.kdmh.live failed - [Errno 8] nodename nor servname provided, or not known
+[2023-09-29 22:04:04] INFO: []: ==================================================
+[2023-09-29 22:04:04] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 22:05:19] INFO: []: ==================================================
+[2023-09-29 22:05:19] INFO: [INFO]: Smtp Check Result: mail.makeshopify.com failed - [Errno 60] Operation timed out
+[2023-09-29 22:05:20] INFO: []: ==================================================
+[2023-09-29 22:05:20] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 22:05:22] INFO: []: ==================================================
+[2023-09-29 22:05:22] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (534, b'5.7.9 Please log in with your web browser and then try again. Learn more at\n5.7.9  https://support.google.com/mail/?p=WebLoginRequired jz3-20020a05622a81c300b0041811e71890sm4790156qtb.33 - gsmtp')
+[2023-09-29 22:05:22] INFO: []: ==================================================
+[2023-09-29 22:05:22] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1108)
+[2023-09-29 22:05:23] INFO: []: ==================================================
+[2023-09-29 22:05:23] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 22:06:38] INFO: []: ==================================================
+[2023-09-29 22:06:38] INFO: [INFO]: Smtp Check Result: sg2nlvphout-v01.shr.prod.sin2.secureserver.net failed - [Errno 60] Operation timed out
+[2023-09-29 22:07:02] INFO: []: ==================================================
+[2023-09-29 22:07:02] INFO: [INFO]: Smtp Check Result: mail.thecertsninja.com failed - (535, b'Incorrect authentication data')
+[2023-09-29 22:07:07] INFO: []: ==================================================
+[2023-09-29 22:07:07] INFO: [INFO]: Smtp Check Result: smtp.titan.email failed - (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+[2023-09-29 22:07:09] INFO: []: ==================================================
+[2023-09-29 22:07:09] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials v20-20020a05620a123400b00774376e6475sm3878970qkj.6 - gsmtp')
+[2023-09-29 22:07:09] INFO: []: ==================================================
+[2023-09-29 22:07:09] INFO: [INFO]: Smtp Check Result: mailhog failed - [Errno 8] nodename nor servname provided, or not known
+[2023-09-29 22:08:24] INFO: []: ==================================================
+[2023-09-29 22:08:24] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - [Errno 60] Operation timed out
+[2023-09-29 22:08:24] INFO: []: ==================================================
+[2023-09-29 22:08:24] INFO: [INFO]: Smtp Check Result: mailhog failed - [Errno 8] nodename nor servname provided, or not known
+[2023-09-29 22:08:25] INFO: []: ==================================================
+[2023-09-29 22:08:25] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials ld7-20020a056214418700b0065d89f4d537sm1342671qvb.45 - gsmtp')
+[2023-09-29 22:08:28] INFO: []: ==================================================
+[2023-09-29 22:08:28] INFO: [INFO]: Smtp Check Result: smtp.hostinger.com works
+[2023-09-29 22:08:29] INFO: []: ==================================================
+[2023-09-29 22:08:29] INFO: [INFO]: Smtp Check Result: mail.jansen-financieren.com failed - [Errno 8] nodename nor servname provided, or not known
+[2023-09-29 22:08:29] INFO: []: ==================================================
+[2023-09-29 22:08:29] INFO: [INFO]: Smtp Check Result: rscoalition.com failed - [Errno 8] nodename nor servname provided, or not known
+[2023-09-29 22:08:50] INFO: []: ==================================================
+[2023-09-29 22:08:50] INFO: [INFO]: Smtp Check Result: smtp.hostinger.com failed - Connection unexpectedly closed
+[2023-09-29 22:08:51] INFO: []: ==================================================
+[2023-09-29 22:08:51] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 22:10:06] INFO: []: ==================================================
+[2023-09-29 22:10:06] INFO: [INFO]: Smtp Check Result: mail.ten1gallery.com failed - [Errno 60] Operation timed out
+[2023-09-29 22:10:06] INFO: []: ==================================================
+[2023-09-29 22:10:06] INFO: [INFO]: Smtp Check Result: mailhog failed - [Errno 8] nodename nor servname provided, or not known
+[2023-09-29 22:10:14] INFO: []: ==================================================
+[2023-09-29 22:10:14] INFO: [INFO]: Smtp Check Result: core.webproserver.com works
+[2023-09-29 22:10:17] INFO: []: ==================================================
+[2023-09-29 22:10:17] INFO: [INFO]: Smtp Check Result: mail.botsbank.com.br failed - (550, b'Your FROM address ( alfatech@botsbank.com.br ,  ) must match your\nauthenticated email user ( alfatech@botsbank.com.br ). Spoofing not\nallowed!')
+[2023-09-29 22:10:19] INFO: []: ==================================================
+[2023-09-29 22:10:19] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 22:10:21] INFO: []: ==================================================
+[2023-09-29 22:10:21] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials bq14-20020a05622a1c0e00b00419801b1094sm611873qtb.13 - gsmtp')
+[2023-09-29 22:14:08] INFO: []: ==================================================
+[2023-09-29 22:14:08] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - Connection unexpectedly closed: [Errno 60] Operation timed out
+[2023-09-29 22:14:17] INFO: []: ==================================================
+[2023-09-29 22:14:17] INFO: [INFO]: Smtp Check Result: vmi1082823.contaboserver.net failed - (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+[2023-09-29 22:14:18] INFO: []: ==================================================
+[2023-09-29 22:14:18] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 22:14:19] INFO: []: ==================================================
+[2023-09-29 22:14:19] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials a14-20020a0cca8e000000b0065af71585b5sm3042431qvk.58 - gsmtp')
+[2023-09-29 22:14:32] INFO: []: ==================================================
+[2023-09-29 22:14:32] INFO: [INFO]: Smtp Check Result: careersandresumes.org works
+[2023-09-29 22:14:39] INFO: []: ==================================================
+[2023-09-29 22:14:39] INFO: [INFO]: Smtp Check Result: definft.online works
+[2023-09-29 22:14:41] INFO: []: ==================================================
+[2023-09-29 22:14:41] INFO: [INFO]: Smtp Check Result: mail.mrservice.rw failed - [Errno 8] nodename nor servname provided, or not known
+[2023-09-29 22:17:12] INFO: []: ==================================================
+[2023-09-29 22:17:12] INFO: [INFO]: Smtp Check Result: domain.com failed - [Errno 60] Operation timed out
+[2023-09-29 22:17:12] INFO: []: ==================================================
+[2023-09-29 22:17:12] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 22:17:14] INFO: []: ==================================================
+[2023-09-29 22:17:14] INFO: [INFO]: Smtp Check Result: investircryptofinancier.com works
+[2023-09-29 22:17:15] INFO: []: ==================================================
+[2023-09-29 22:17:15] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (534, b'5.7.9 Please log in with your web browser and then try again. Learn more at\n5.7.9  https://support.google.com/mail/?p=WebLoginRequired x30-20020ac84d5e000000b0041818df8a0dsm4207589qtv.36 - gsmtp')
+[2023-09-29 22:17:15] INFO: []: ==================================================
+[2023-09-29 22:17:15] INFO: [INFO]: Smtp Check Result:  failed - please run connect() first
+[2023-09-29 22:17:18] INFO: []: ==================================================
+[2023-09-29 22:17:18] INFO: [INFO]: Smtp Check Result: smtp.gmail.com works
+[2023-09-29 22:17:19] INFO: []: ==================================================
+[2023-09-29 22:17:19] INFO: [INFO]: Smtp Check Result: smtp.gmail.com works
+[2023-09-29 22:17:29] INFO: []: ==================================================
+[2023-09-29 22:17:29] INFO: [INFO]: Smtp Check Result: bom1plzcpnl493858.prod.bom1.secureserver.net failed - (535, b'Incorrect authentication data')
+[2023-09-29 22:17:31] INFO: []: ==================================================
+[2023-09-29 22:17:31] INFO: [INFO]: Smtp Check Result: smtp.gmail.com works
+[2023-09-29 22:17:36] INFO: []: ==================================================
+[2023-09-29 22:17:36] INFO: [INFO]: Smtp Check Result: smtp.hostinger.com failed - (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+[2023-09-29 22:17:37] INFO: []: ==================================================
+[2023-09-29 22:17:37] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials o18-20020a0ce412000000b0065b22afe53csm3555990qvl.94 - gsmtp')
+[2023-09-29 22:18:52] INFO: []: ==================================================
+[2023-09-29 22:18:52] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - [Errno 60] Operation timed out
+[2023-09-29 22:18:55] INFO: []: ==================================================
+[2023-09-29 22:18:55] INFO: [INFO]: Smtp Check Result: mail.projects.delivery failed - can only concatenate str (not "bytes") to str
+[2023-09-29 22:19:04] INFO: []: ==================================================
+[2023-09-29 22:19:04] INFO: [INFO]: Smtp Check Result: us2.smtp.mailhostbox.com failed - (535, b'5.7.8 Error: authentication failed:')
+[2023-09-29 22:19:09] INFO: []: ==================================================
+[2023-09-29 22:19:09] INFO: [INFO]: Smtp Check Result: smtp.hostinger.com failed - (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+[2023-09-29 22:19:10] INFO: []: ==================================================
+[2023-09-29 22:19:10] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 22:19:12] INFO: []: ==================================================
+[2023-09-29 22:19:12] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (534, b'5.7.9 Please log in with your web browser and then try again. Learn more at\n5.7.9  https://support.google.com/mail/?p=WebLoginRequired j13-20020ae9c20d000000b0076cb3690ae7sm7395861qkg.68 - gsmtp')
+[2023-09-29 22:19:17] INFO: []: ==================================================
+[2023-09-29 22:19:17] INFO: [INFO]: Smtp Check Result: smtp.titan.email failed - (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+[2023-09-29 22:19:18] INFO: []: ==================================================
+[2023-09-29 22:19:18] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 22:19:20] INFO: []: ==================================================
+[2023-09-29 22:19:20] INFO: [INFO]: Smtp Check Result: smtp.hostinger.com works
+[2023-09-29 22:21:22] INFO: []: ==================================================
+[2023-09-29 22:21:22] INFO: [INFO]: Smtp Check Result: in-v3.mailjet.com failed - Connection unexpectedly closed
+[2023-09-29 22:21:41] INFO: []: ==================================================
+[2023-09-29 22:21:41] INFO: [INFO]: Smtp Check Result: in-v3.mailjet.com failed - (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+[2023-09-29 22:22:12] INFO: []: ==================================================
+[2023-09-29 22:22:12] INFO: [INFO]: Smtp Check Result: in-v3.mailjet.com failed - (454, b'4.7.0 Temporary authentication failure: Connection lost to authentication server')
+[2023-09-29 22:22:13] INFO: []: ==================================================
+[2023-09-29 22:22:13] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials g28-20020a05620a13dc00b0077438383a07sm3819218qkl.80 - gsmtp')
+[2023-09-29 22:22:14] INFO: []: ==================================================
+[2023-09-29 22:22:14] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (534, b'5.7.9 Please log in with your web browser and then try again. Learn more at\n5.7.9  https://support.google.com/mail/?p=WebLoginRequired r10-20020a0c9e8a000000b006562b70805bsm5033021qvd.84 - gsmtp')
+[2023-09-29 22:22:15] INFO: []: ==================================================
+[2023-09-29 22:22:15] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials n18-20020ae9c312000000b0076f13783743sm460619qkg.92 - gsmtp')
+[2023-09-29 22:22:16] INFO: []: ==================================================
+[2023-09-29 22:22:16] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 17-20020a05620a06d100b00767d2870e39sm5362856qky.41 - gsmtp')
+[2023-09-29 22:22:19] INFO: []: ==================================================
+[2023-09-29 22:22:19] INFO: [INFO]: Smtp Check Result: mail.crmdfinaltouch.com failed - {'nolzqlf@gmail.com': (550, b'Outgoing mail from "info@crmdfinaltouch.com" has been suspended.')}
+[2023-09-29 22:22:19] INFO: []: ==================================================
+[2023-09-29 22:22:19] INFO: [INFO]: Smtp Check Result: luc failed - [Errno 8] nodename nor servname provided, or not known
+[2023-09-29 22:22:21] INFO: []: ==================================================
+[2023-09-29 22:22:21] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io works
+[2023-09-29 22:22:22] INFO: []: ==================================================
+[2023-09-29 22:22:22] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials o5-20020a05620a110500b0076f058f5834sm5253449qkk.61 - gsmtp')
+[2023-09-29 22:22:23] INFO: []: ==================================================
+[2023-09-29 22:22:23] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials ih20-20020a05622a6a9400b004109d386323sm7038443qtb.66 - gsmtp')
+[2023-09-29 22:22:24] INFO: []: ==================================================
+[2023-09-29 22:22:24] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials hf20-20020a05622a609400b004166905aa2asm3712032qtb.28 - gsmtp')
+[2023-09-29 22:22:27] INFO: []: ==================================================
+[2023-09-29 22:22:27] INFO: [INFO]: Smtp Check Result: smtp.yandex.ru failed - (535, b'5.7.8 Error: authentication failed: Invalid user or password! 1696040547-PMIwoXAWqiE0')
+[2023-09-29 22:22:28] INFO: []: ==================================================
+[2023-09-29 22:22:28] INFO: [INFO]: Smtp Check Result: smtp.googlemail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials jt8-20020a05622aa00800b00403ff38d855sm7219495qtb.4 - gsmtp')
+[2023-09-29 22:22:29] INFO: []: ==================================================
+[2023-09-29 22:22:29] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials u14-20020a0cdd0e000000b00641899958efsm4727352qvk.130 - gsmtp')
+[2023-09-29 22:22:29] INFO: []: ==================================================
+[2023-09-29 22:22:29] INFO: [INFO]: Smtp Check Result: ******************* failed - invalid literal for int() with base 10: '****'
+[2023-09-29 22:22:30] INFO: []: ==================================================
+[2023-09-29 22:22:30] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (534, b'5.7.9 Please log in with your web browser and then try again. Learn more at\n5.7.9  https://support.google.com/mail/?p=WebLoginRequired jv24-20020a05622aa09800b00417d56d432asm7173389qtb.40 - gsmtp')
+[2023-09-29 22:22:32] INFO: []: ==================================================
+[2023-09-29 22:22:32] INFO: [INFO]: Smtp Check Result: mail.authsmtp.com failed - (535, b'5.7.0 authentication failed - wrong username and / or password')
+[2023-09-29 22:22:33] INFO: []: ==================================================
+[2023-09-29 22:22:33] INFO: [INFO]: Smtp Check Result: premium88.web-hosting.com failed - {'nolzqlf@gmail.com': (550, b'Outgoing mail from "a-alandjani.com" has been suspended.')}
+[2023-09-29 22:22:34] INFO: []: ==================================================
+[2023-09-29 22:22:34] INFO: [INFO]: Smtp Check Result: sandbox.smtp.mailtrap.io works
+[2023-09-29 22:22:35] INFO: []: ==================================================
+[2023-09-29 22:22:35] INFO: [INFO]: Smtp Check Result: sandbox.smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 22:22:35] INFO: []: ==================================================
+[2023-09-29 22:22:35] INFO: [INFO]: Smtp Check Result:  failed - please run connect() first
+[2023-09-29 22:22:36] INFO: []: ==================================================
+[2023-09-29 22:22:36] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (534, b'5.7.9 Please log in with your web browser and then try again. Learn more at\n5.7.9  https://support.google.com/mail/?p=WebLoginRequired s8-20020a0cdc08000000b0065afa998364sm1650308qvk.95 - gsmtp')
+[2023-09-29 22:22:37] INFO: []: ==================================================
+[2023-09-29 22:22:37] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials i17-20020ae9ee11000000b00767d8e12ce3sm7383527qkg.49 - gsmtp')
+[2023-09-29 22:22:38] INFO: []: ==================================================
+[2023-09-29 22:22:38] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 22:22:38] INFO: []: ==================================================
+[2023-09-29 22:22:38] INFO: [INFO]: Smtp Check Result: mailhog failed - [Errno 8] nodename nor servname provided, or not known
+[2023-09-29 22:22:40] INFO: []: ==================================================
+[2023-09-29 22:22:40] INFO: [INFO]: Smtp Check Result: sandbox.smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 22:25:10] INFO: []: ==================================================
+[2023-09-29 22:25:10] INFO: [INFO]: Smtp Check Result: domain.com failed - [Errno 60] Operation timed out
+[2023-09-29 22:25:15] INFO: []: ==================================================
+[2023-09-29 22:25:15] INFO: [INFO]: Smtp Check Result: smtp.hostinger.com failed - (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+[2023-09-29 22:25:16] INFO: []: ==================================================
+[2023-09-29 22:25:16] INFO: [INFO]: Smtp Check Result: mail.yourdomain.com failed - [Errno 61] Connection refused
+[2023-09-29 22:25:16] INFO: []: ==================================================
+[2023-09-29 22:25:16] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials q7-20020a0cf5c7000000b00656506a1881sm7906405qvm.74 - gsmtp')
+[2023-09-29 22:25:17] INFO: []: ==================================================
+[2023-09-29 22:25:17] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 22:25:26] INFO: []: ==================================================
+[2023-09-29 22:25:26] INFO: [INFO]: Smtp Check Result: mail.ustradebd.com failed - (535, b'Incorrect authentication data')
+[2023-09-29 22:25:27] INFO: []: ==================================================
+[2023-09-29 22:25:27] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 22:25:27] INFO: []: ==================================================
+[2023-09-29 22:25:27] INFO: [INFO]: Smtp Check Result: mailhog failed - [Errno 8] nodename nor servname provided, or not known
+[2023-09-29 22:25:31] INFO: []: ==================================================
+[2023-09-29 22:25:31] INFO: [INFO]: Smtp Check Result: smtp.titan.email failed - (535, b'5.7.8 Error: authentication failed: UGFzc3dvcmQ6')
+[2023-09-29 22:25:31] INFO: []: ==================================================
+[2023-09-29 22:25:31] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 22:25:38] INFO: []: ==================================================
+[2023-09-29 22:25:38] INFO: [INFO]: Smtp Check Result: mail.mjeub.com works
+[2023-09-29 22:25:38] INFO: []: ==================================================
+[2023-09-29 22:25:38] INFO: [INFO]: Smtp Check Result: mailhog failed - [Errno 8] nodename nor servname provided, or not known
+[2023-09-29 22:25:40] INFO: []: ==================================================
+[2023-09-29 22:25:40] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials v20-20020a05620a123400b00774376e6475sm3888483qkj.6 - gsmtp')
+[2023-09-29 22:25:40] INFO: []: ==================================================
+[2023-09-29 22:25:40] INFO: [INFO]: Smtp Check Result: mail.gesttravel.in failed - [Errno 8] nodename nor servname provided, or not known
+[2023-09-29 22:25:51] INFO: []: ==================================================
+[2023-09-29 22:25:51] INFO: [INFO]: Smtp Check Result: mail.estoreclassic.com failed - (535, b'Incorrect authentication data')
+[2023-09-29 22:25:53] INFO: []: ==================================================
+[2023-09-29 22:25:53] INFO: [INFO]: Smtp Check Result: smtp.elasticemail.com works
+[2023-09-29 22:27:08] INFO: []: ==================================================
+[2023-09-29 22:27:08] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - [Errno 60] Operation timed out
+[2023-09-29 22:34:35] INFO: []: ==================================================
+[2023-09-29 22:34:35] INFO: [INFO]: Smtp Check Result: titularizadoracaribe.com failed - [Errno 8] nodename nor servname provided, or not known
+[2023-09-29 22:34:35] INFO: []: ==================================================
+[2023-09-29 22:34:35] INFO: [INFO]: Smtp Check Result: localhost failed - [Errno 61] Connection refused
+[2023-09-29 22:34:37] INFO: []: ==================================================
+[2023-09-29 22:34:37] INFO: [INFO]: Smtp Check Result: mail5010.site4now.net works
+[2023-09-29 22:34:38] INFO: []: ==================================================
+[2023-09-29 22:34:38] INFO: [INFO]: Smtp Check Result: smtp.titan.email works
+[2023-09-29 22:34:39] INFO: []: ==================================================
+[2023-09-29 22:34:39] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials d2-20020a0cf0c2000000b0063d162a8b8bsm5176672qvl.19 - gsmtp')
+[2023-09-29 22:34:40] INFO: []: ==================================================
+[2023-09-29 22:34:40] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials d1-20020ac80601000000b00410ac0068d0sm7153019qth.91 - gsmtp')
+[2023-09-29 22:35:55] INFO: []: ==================================================
+[2023-09-29 22:35:55] INFO: [INFO]: Smtp Check Result: tls://smtp.yandex.ru failed - [Errno 60] Operation timed out
+[2023-09-29 22:35:56] INFO: []: ==================================================
+[2023-09-29 22:35:56] INFO: [INFO]: Smtp Check Result: smtp.gmail.com failed - (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials t2-20020a05620a034200b0076ce061f44dsm7390826qkm.25 - gsmtp')
+[2023-09-29 22:35:57] INFO: []: ==================================================
+[2023-09-29 22:35:57] INFO: [INFO]: Smtp Check Result: smtp.mailtrap.io failed - Connection unexpectedly closed
+[2023-09-29 22:35:58] INFO: []: ==================================================
+[2023-09-29 22:35:58] INFO: [INFO]: Smtp Check Result: smtp.sendgrid.net failed - Connection unexpectedly closed
+[2023-09-29 22:35:59] INFO: []: ==================================================
+[2023-09-29 22:35:59] INFO: [INFO]: Smtp Check Result: smtp.sendgrid.net failed - (550, b"MIME message is missing 'From' header")
+[2023-09-29 22:35:59] INFO: []: ==================================================
+[2023-09-29 22:35:59] INFO: [INFO]: Smtp Check Result: smtp.sendgrid.net failed - Connection unexpectedly closed
+[2023-09-29 22:43:29] INFO: []: ==================================================
+[2023-09-29 22:43:29] INFO: [INFO]: Smtp Check Result: sendgrid.com failed - [Errno 60] Operation timed out
+[2023-09-29 22:43:30] INFO: []: ==================================================
+[2023-09-29 22:43:30] INFO: [INFO]: Smtp Check Result: smtp.mailgun.org failed - (421, b'Domain sandbox91dd547c5d7143cf97408fea41e32c9f.mailgun.org is not allowed to send: Free accounts are for test purposes only. Please upgrade or add the address to authorized recipients in Account Settings.')
+[2023-09-29 22:43:42] INFO: []: ==================================================
+[2023-09-29 22:43:42] INFO: [INFO]: Smtp Check Result: smtp.office365.com failed - (535, b'5.7.139 Authentication unsuccessful, account locked. Contact your administrator. [YT4PR01CA0431.CANPRD01.PROD.OUTLOOK.COM 2023-09-30T02:43:42.710Z 08DBC15BC0A2FEF1]')
+[2023-09-29 22:43:53] INFO: []: ==================================================
+[2023-09-29 22:43:53] INFO: [INFO]: Smtp Check Result: smtp.office365.com works
+[2023-09-29 22:43:56] INFO: []: ==================================================
+[2023-09-29 22:43:56] INFO: [INFO]: Smtp Check Result: smtppro.zoho.com works
