@@ -29,7 +29,7 @@ def main():
             with open(WORKING_SMTP_FILE if success else FAILED_SMTP_FILE, 'a') as file:
                 file.write(smtp_format)
                 if not success:
-                    file.write(f"ERROR: {message}\n")
+                    file.write(f"ERROR: {message}\n\n")
 
         print("SMTP testing completed.")
 
