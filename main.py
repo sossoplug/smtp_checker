@@ -9,6 +9,7 @@ load_dotenv(find_dotenv())
 SMTP_SAMPLE_FILE                = "smtps.txt"
 WORKING_SMTP_FILE               = "working_smtps.txt"
 FAILED_SMTP_FILE                = "failed_smtps.txt"
+LOGS_SMTP_FILE                  = "logs.txt"
 
 def main():
     """
@@ -18,6 +19,7 @@ def main():
         # Cleaned files
         wipe_file_clean(WORKING_SMTP_FILE)
         wipe_file_clean(FAILED_SMTP_FILE)
+        wipe_file_clean(LOGS_SMTP_FILE)
 
         # SMTP Testing
         smtp_details_list       = extract_smtp_details_from_sample(SMTP_SAMPLE_FILE)
